@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.collapsible {
+    margin-bottom: 10px;
+}
+
+.collapsible-label {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.collapsible-label:hover {
+    background-color: #444;
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #222;
+    padding: 0 10px;
+    border-radius: 0 0 4px 4px;
+}
+
+.collapsible input[type="checkbox"] {
+    display: none;
+}
+
+.collapsible input[type="checkbox"]:checked ~ .collapsible-content {
+    max-height: 1000px; /* Adjust based on content size */
+    padding: 10px;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+.code-container {
+    position: relative;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #45a049;
+}
+
+pre {
+    margin: 0;
+    overflow: auto;
+}
+
+code {
+    color: #f8f8f2;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f215;
+        }
+.Structure-image img{
+    width: 100px;
+}
