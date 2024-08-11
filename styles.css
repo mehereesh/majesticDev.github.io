@@ -110,3 +110,7 @@ code {
 .Structure-image img{
     width: 100px;
 }
+
+span{
+    color: red;
+}
