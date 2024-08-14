@@ -1060,7 +1060,85 @@ Multiple HTML elements can share the same class.
 </code>
 </pre>
 </div>
+</div>
+</div>
+<div class="collapsible">
+    <input type="checkbox" id="collapsible-head-39">
+    <label for="collapsible-head-39" class="collapsible-label">HTML Tables</label>
+    <div class="collapsible-content">
+<h3>HTML Table</h3>
+<h4>Table Element</h4>
+<p>An HTML table is defined with the <span>&lt;table&gt;</span> tag, and it contains rows defined with the
+    <span>&lt;tr&gt;</span> tag.Inside these rows, data is represented by cells. Table cells can either be header cells, defined with the
+    <span>&lt;thead&gt;</span>tag, or standard data cells, defined with the <span>&lt;tb&gt;</span><td> tag.
+</p>
+<div class="code-container">
+<button class="copy-button" onclick="copyCode()">Copy</button>
+<pre id="code-block">
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;HTML Table Example&lt;/title&gt;
+        &lt;style&gt;
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 10px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h2&gt;Employee Details&lt;/h2&gt;
+        &lt;table&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Employee ID&lt;/th&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Department&lt;/th&gt;
+                    &lt;th&gt;Salary&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;101&lt;/td&gt;
+                    &lt;td&gt;John Doe&lt;/td&gt;
+                    &lt;td&gt;Marketing&lt;/td&gt;
+                    &lt;td&gt;$50,000&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;102&lt;/td&gt;
+                    &lt;td&gt;Jane Smith&lt;/td&gt;
+                    &lt;td&gt;Finance&lt;/td&gt;
+                    &lt;td&gt;$55,000&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+            &lt;tfoot&gt;
+                &lt;tr&gt;
+                    &lt;td colspan="3"&gt;Total Employees&lt;/td&gt;
+                    &lt;td&gt;3&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tfoot&gt;
+        &lt;/table&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    
+    
+</code>
+</pre>
+</div>
 
+</div>
+</div>
     <script src="scripts.js"></script>
 </body>
 </html>
